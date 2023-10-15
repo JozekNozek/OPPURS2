@@ -122,7 +122,7 @@ int main(void)
   while(1)
   {
     // for(uint32_t i =0; i <1000000; i ++);
-    timer2_wait_millisec (1000);
+    timer2_wait_millisec(1500);
 
     gpio_led_state( LED3_ORANGE_ID , 1); // turn on
     gpio_led_state( LED4_GREEN_ID , 1); // turn on
@@ -130,7 +130,7 @@ int main(void)
     gpio_led_state( LED6_BLUE_ID , 0); // turn off
 
     // for(uint32_t i =0; i <1000000; i ++);
-    timer2_wait_millisec (1000);
+    timer2_wait_millisec(1500);
 
     gpio_led_state( LED3_ORANGE_ID , 0); // turn off
     gpio_led_state( LED4_GREEN_ID , 0); // turn off
